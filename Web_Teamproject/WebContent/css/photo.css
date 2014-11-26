@@ -1,0 +1,203 @@
+.popup{ display:none; position:absolute; top:0; left:0; width:100%; height:100%; z-index:1000; overflow : auto;}
+.popup.open{ display:block; }
+.popup .pbg{ position:absolute; top:0; left:0; width:100%; background:#FFF; padding-bottom: 50px; opacity:.9; }
+
+#drawtool {
+	position: fixed;
+	top: 50px;
+	width: 100px;
+	right: 9%;
+	background-color: white;
+	border: 1px;
+	border-style: solid;
+	border-color: white;
+	box-shadow: 0 3px 8px rgba(34, 25, 25, 0.4);
+}
+
+#photopage {
+	position: absolute;
+	width: 745px;
+	left: 29%;
+	background-color: white;
+	border: 1px;
+	border-style: solid;
+	border-color: white;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	box-shadow: 0 3px 8px rgba(34, 25, 25, 0.4);
+}
+
+#photopage p {
+ 	margin: 0px;
+ }
+
+#name {
+	height: 50px;
+	padding: 20px;
+	border-bottom: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #D1CDCD;
+}
+
+#name img {
+	float: left;
+	width: 50px;
+	height: 50px;
+ 	max-width: 100%;
+ 	padding-right: 5px;
+}
+
+#photo {
+	padding: 20px;
+	border-bottom: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #D1CDCD;
+}
+
+#photo p {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#photodetail {
+	background-color: #E9E9E9;
+	position: relative;
+}
+
+#photo_picture > img {
+	left: 50%;
+	margin-left: -175px;
+	max-width: 100%;
+}
+
+#form {	
+	height: 50px;
+	padding: 20px;
+	border-bottom: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #D1CDCD;
+}
+
+#form input[type="text"] {
+	width: 550px;
+	height: 45px;
+}
+
+#form input[type="submit"] {
+	width: 80px;
+	height: 55px;
+	vertical-align: auto;
+	margin-bottom: 9px;
+}
+
+#form img {
+	float: left;
+	width: 50px;
+	height: 50px;
+ 	max-width: 100%;
+ 	padding-right: 5px;
+}
+
+#comment {
+	padding: 10px 20px;
+}
+
+#comment img {
+	float: left;
+	width: 50px;
+	height: 50px;
+ 	max-width: 100%;
+ 	padding-right: 5px;
+}
+button.btn.btn-mini.btn-danger.comment {
+	position: relative;
+	bottom: 40px;
+	left: 90%;
+}
+button.btn.btn-mini.btn-danger.graffiti {
+	float: right;
+	margin-top: 5px;
+}
+.viewcheck {
+	float: left;
+}
+#drawlist {
+	position: fixed;
+	right: 72%;
+	top: 50px;
+	width: 300px;
+	background-color: white;
+	border: 0px;
+	border-style: solid;
+	border-color: white;
+	box-shadow: 0 3px 8px rgba(34, 25, 25, 0.4);
+}
+
+#drawlist img {
+	width: 35px;
+	height: 35px;
+ 	max-width: 100%;
+ 	padding-right: 5px;
+ }
+ #savedraw {
+	position: fixed;
+	top: 260px;
+	right: 9%;
+	width: 100px;
+ }
+ 
+ .colorpicker#type1_10_black {
+	width: 100px;
+	height: 25px;
+	background-color: black;
+	cursor: pointer;
+}
+
+.colorpicker#type1_10_white {
+	width: 100px;
+	height: 25px;
+	background-color: white;
+	cursor: pointer;
+}
+
+.colorpicker#type1_10_red {
+	width: 100px;
+	height: 25px;
+	background-color: red;
+	cursor: pointer;
+}
+
+.colorpicker#type1_10_green {
+	width: 100px;
+	height: 25px;
+	background-color: #090;
+	cursor: pointer;
+}
+
+.colorpicker#type1_10_blue {
+	width: 100px;
+	height: 25px;
+	background-color: #039;
+	cursor: pointer;
+}
+
+.colorpicker#type1_10_purple {
+	width: 100px;
+	height: 25px;
+	background-color: #90C;
+	cursor: pointer;
+}
+
+.colorpicker#type1_10_lime {
+	width: 100px;
+	height: 25px;
+	background-color: #CF3;
+	cursor: pointer;
+}
+
+.colorpicker#type1_10_orange {
+	width: 100px;
+	height: 25px;
+	background-color: #F30;
+	cursor: pointer;
+}

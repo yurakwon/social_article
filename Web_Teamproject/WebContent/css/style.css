@@ -1,0 +1,278 @@
+html{color:#000;
+	background:#FFF;
+ 	padding:20px 0;
+	font: 14px/18px "맑은 고딕", "Malgun Gothic", "굴림", "Gulim", Verdan, Arial, Tahoma;}
+body {background-color: #e9e9e9;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit;}
+del,ins{text-decoration:none;}
+li{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;font-variant:normal;}
+sup{vertical-align:baseline;}
+sub{vertical-align:baseline;}
+legend{color:#000;}
+input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}
+input,button,textarea,select{font-size:100%;}
+div {
+display: block;
+}
+a {
+	font-weight: bold;
+	color: #221919;
+	text-decoration: none;
+	outline: none;
+}
+form {
+	display: block;
+	margin-top: 0em;
+}
+#titlebar {
+	position: fixed;
+	z-index: 103;
+	top: 0;
+	right: 0;
+	left: 0;
+	height: 55px;
+	background-color: #FFFFFF;
+	box-shadow: inset 0 1px white,0 1px 3px rgba(34, 25, 25, 0.4);
+	-moz-box-shadow: inset 0 1px #fff,0 1px 2px rgba(34,25,25,0.4);
+	-webkit-box-shadow: inset 0 1px white,0 1px 3px rgba(34, 25, 25, 0.4);
+}
+
+#page #titlebar {
+	position: relative;
+	z-index: 105;
+	box-shadow: 0 0 transparent;
+	-moz-box-shadow: 0 0 transparent;
+	-webkit-box-shadow: 0 0 transparent;
+}
+.LiquidContainer {
+	margin: 0 auto;
+}
+#logo {
+	display: block;
+	position: absolute;
+	width: 150px;
+	height: 40px;
+	top: 5px;
+	left: 48.5%;
+	margin-left: -50px;
+}
+#logo img{
+	height:50px;
+}
+#Search {
+	float: left;
+	margin: 13px 0 0;
+}
+#Search input {
+	float: left;
+	width: 183px;
+	background-color: #FAF7F7;
+	border: 1px solid;
+	border-color: #C2C0C0 #CCCACA #D1CFCF;
+	box-shadow: 0 1px white,inset 0 1px rgba(34, 25, 25, 0.05);
+	-moz-box-shadow: 0 1px #fff,inset 0 1px rgba(34,25,25,0.05);
+	-webkit-box-shadow: 0 1px white,inset 0 1px rgba(34, 25, 25, 0.05);
+	font-size: 13px;
+	line-height: 1.3;
+}
+#Search a {
+	float: left;
+	margin-left: -1px;
+	padding: 2px 7px 6px;
+	min-height: 17px;
+	border: 1px solid;
+	border-color: #C2C0C0 #CCCACA #D1CFCF;
+	box-shadow: 0 1px rgba(255, 255, 255, 0.9),inset 0 0 2px rgba(255, 255, 255, 0.75);
+	-moz-box-shadow: 0 1px rgba(255,255,255,0.9),inset 0 0 2px rgba(255,255,255,0.75);
+	-webkit-box-shadow: 0 1px rgba(255, 255, 255, 0.9),inset 0 0 2px rgba(255, 255, 255, 0.75);
+}
+.lg {
+	background-color: #F0EDED;
+	background: -moz-linear-gradient(top, #FFFCFC, #F0EDED);
+	background: -o-linear-gradient(#FFFCFC, #F0EDED);
+	background: -webkit-linear-gradient(#FFFCFC, #F0EDED);
+}
+#Navigation {
+	position: relative;
+	float: right;
+	z-index: 200;
+	top: 13px;
+}
+#menubar {	
+	position: fixed;
+	z-index: 101;
+	top: 55px;
+	padding-top: 0px;
+	right: 0;
+	left: 0;
+	text-align: right;
+	font-size: 13px;
+	color: #8c7e7e;
+	background-color: #faf7f7;
+	border-top: 1px solid #cfcaca;
+	box-shadow: inset 0 1px #fff, 0 1px 3px rgba(34, 25, 25, 0.4);
+	-moz-box-shadow: inset 0 1px #fff, 0 1px 3px rgba(34, 25, 25, 0.4);
+	-webkit-box-shadow: inset 0 1px #fff, 0 1px 3px rgba(34, 25, 25, 0.4);
+	padding: 5px 0;
+}
+
+.HeaderContainer li {
+	position: relative;
+	display: inline;
+	font-size: 13px;
+}
+
+#menubar li {
+	text-align: -webkit-match-parent;
+}
+#menubar .nav {
+	font-weight: normal;
+}
+.profile-size1 {
+	width: 20px;
+	height: 20px;
+}
+.profile-size2 {
+	width: 30px;
+	height: 30px;
+}
+/**
+ * Grid container
+ */
+#tiles {
+list-style-type: none;
+position: relative; /** Needed to ensure items are laid out relative to this container **/
+margin: 0;
+}
+
+/**
+ * Grid items
+ */
+#tiles li {
+	width: 200px;
+	background-color: #ffffff;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	display: none; /** Hide items initially to avoid a flicker effect **/
+	padding: 10px 10px 2px;
+	box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+	-moz-box-shadow: 0 1px 2px rgba(34,25,25,0.4);
+	-webkit-box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+}
+
+#tiles li img {
+display: block;
+}
+
+/**
+ * Grid item text
+ */
+#tiles li p {
+color: #666;
+font-size: 12px;
+margin: 7px;
+border:1px, 1px, 1px, 1px;
+}
+
+/**
+ * Some extra styles to randomize heights of grid items.
+ */
+#tiles ali:nth-child(3n) {
+height: 175px;
+}
+
+#tiles ali:nth-child(4n-3) {
+padding-bottom: 30px;
+}
+
+#tiles ali:nth-child(5n) {
+height: 250px;
+}
+
+/** General page styling **/
+  
+#list {
+padding-top: 91px;
+}
+
+/** 글 상자 내용 꾸미기.. **/
+#tiles li .itemauthor > p > span {
+	float:left;
+}
+
+.itemcontents {
+	clear:both;
+}
+.itemcomment {
+	font-size: 9px;
+}
+
+.itemcontents img:hover,
+.itemcontents img:active {
+	cursor: pointer;
+}
+
+#tiles li .itemcomment > p {
+	display: block;
+	clear: both;
+	height: 30px;
+	margin: 0 -10px;
+	padding: 5px 9px;
+	border-top: 1px solid #D9D4D4;
+}
+#tiles li .itemcomment > p > span {
+	float: left;
+	overflow: hidden;
+	border-bottom-width: 0;
+	word-wrap: break-word;
+}
+
+.itemform > span {
+	float:left;
+}
+.itemform input[type="text"] {
+	position:relative;
+	float:left;
+	width:155px;
+}
+.itemform input[type="submit"] {
+	clear:both;
+	float:right;
+}
+
+/** Loader **/
+  
+#loader {
+  height: 16px;
+  text-align: center;
+  padding: 25px 0 25px 0;
+}
+  
+#loaderCircle {
+  width: 16px;
+  height: 16px;
+margin: 0 auto;
+  background-image: url('../images/loader.gif');
+}
+
+.deleteon {
+	visibility: hidden;
+	left: 90%;
+	top: 5px;
+	position: absolute;
+}
+.deleteon.on{
+	visibility: visible;
+}
+.deleteon:active,
+.deleteon:hover {
+	cursor: pointer;
+}
