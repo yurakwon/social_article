@@ -37,7 +37,6 @@
 					<label class="control-label" for="userid">ID</label>
 					<div class="controls">
 						<c:choose>
-							<%-- 신규 가입일 때만 아이디 입력창이 나타남--%>
 	        				<c:when test="${method == 'POST'}">
 								<input type="text" name="userid">
 							</c:when>
