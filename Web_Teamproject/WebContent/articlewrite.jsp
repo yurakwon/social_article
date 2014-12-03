@@ -18,7 +18,7 @@
 	</head>
 
 	<body>
-		
+			
 		<div class="container">
 		<div>
 			<form class="form-horizontal" action="article" method="POST" enctype="multipart/form-data">
