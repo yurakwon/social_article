@@ -18,7 +18,7 @@
 </head>
 <body>
  
- <jsp:include page="mainheader.jsp" />
+ 
  
  <div class="container">
    <div>
