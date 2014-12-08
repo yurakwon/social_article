@@ -66,8 +66,7 @@ public class MemberDAO {
 											rs.getString("gender"),
 											rs.getString("email"),
 											rs.getString("introduce"),
-											rs.getString("website"),
-											rs.getInt("level")));
+											rs.getString("website")));
 			}
 		} finally {
 			if (rs != null) try{rs.close();} catch(SQLException e) {}
@@ -107,8 +106,7 @@ public class MemberDAO {
 						rs.getString("gender"),
 						rs.getString("email"),
 						rs.getString("introduce"),
-						rs.getString("website"),
-						rs.getInt("level"));
+						rs.getString("website"));
 			}	
 		} finally {
 			if (rs != null) try{rs.close();} catch(SQLException e) {}

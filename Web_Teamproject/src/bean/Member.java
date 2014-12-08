@@ -20,14 +20,13 @@ public class Member implements java.io.Serializable {
 	private String 		email;
 	private String 		introduce;
 	private String 		website;
-	private int 		level;
 		
 	public Member() {
 	}
 
 	public Member(String userid, String pwd, Timestamp registerdate, String lastname, String firstname, 
 				  String nickname, String profilephoto, String gender, String email, String introduce, 
-				  String website, int level) 
+				  String website) 
 	{
 		super();
 		this.userid 		= userid;
@@ -41,7 +40,6 @@ public class Member implements java.io.Serializable {
 		this.email 			= email;
 		this.introduce 		= introduce;
 		this.website 		= website;
-		this.level 			= level;
 	}
 
 	public String getUserid() { return userid; }
@@ -79,9 +77,6 @@ public class Member implements java.io.Serializable {
 
 	public String getWebsite() { return website; }
 	public void setWebsite(String website) { this.website = website; }
-
-	public int getLevel() { return level; }
-	public void setLevel(int level) { this.level = level; }
 	
 	public JSONObject UsertoJson() {
 		JSONObject js = new JSONObject();

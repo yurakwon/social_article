@@ -16,6 +16,5 @@ CREATE TABLE member (
   `email` VARCHAR(50) NOT NULL,
   `introduce` TEXT,
   `website` VARCHAR(50),
-  `level` TINYINT(1) NOT NULL DEFAULT '3',
   PRIMARY KEY(userid)
 ) ENGINE=MyISAM;
